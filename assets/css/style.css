@@ -53,12 +53,20 @@ a :hover {
 
 
 .cardContainer {
-padding-top: 20px;
-padding-bottom: 20px;
+padding: 20px;
 background-color: #DEE2FF;
 }
 
 .card-img-top {
     height: 370px;
-    width: 415px;
+    width: 398px;
+}
+
+.card-title {
+    font-size: 50px solid !important;
+}
+
+.btn-primary {
+    
+
 }
