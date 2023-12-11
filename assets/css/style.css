@@ -9,9 +9,10 @@ body {
     font-family: serif;
     line-height: 1.5;
     font-size: 18px;
+    color: #00008B;
 }
 a :hover {
-    background-color: white;
+    background-color: #ffffff;
     text-decoration: underline;
 }
 
@@ -26,11 +27,26 @@ a :hover {
 
 #main-nav .navbar-brand {
     font-weight: 600;
+    color: #00008B;
+}
+
+.nav-link{
+    color: #00008B;
+}
+
+.dropdown-item {
+    color: #00008B;
 }
 
 .navbar-nav li  :hover {
-    color:white;
+    color:#f0a04b;
     text-decoration: underline;
     transition: all 0.35s;;
+}
+
+.jumbotron {
+    background-image: url(/assets/images/hero.jpeg);
+    width: 100%;
+    height: 800px;
 }
 
