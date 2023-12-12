@@ -88,5 +88,19 @@ background-color: #DEE2FF;
   .container h2 {
     font-weight: 1000;
   }
+
+  .card-header {
+    background-color:#FEEAFA;
+  }
  
+  .card-header .btn {
+    color: #00008B;
+    text-decoration: none;
+    width: 10%;
+  }
+
+  .card-header .btn:hover{
+    text-decoration: underline;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  }
 
