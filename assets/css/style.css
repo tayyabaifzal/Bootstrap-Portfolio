@@ -66,7 +66,15 @@ background-color: #DEE2FF;
     font-size: 50px solid !important;
 }
 
-.btn-primary {
-    
-
+.btn {
+    background-color: #CBC0D3;
+    border: none;
 }
+
+.btn-primary:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .skills {
+    text-align: center;
+  }
