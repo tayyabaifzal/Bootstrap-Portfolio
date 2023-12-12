@@ -103,4 +103,12 @@ background-color: #DEE2FF;
     text-decoration: underline;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
   }
+footer {
+    background-color: #FFFFD2;
 
+}
+
+.about{
+    padding: 20px;
+    
+}
