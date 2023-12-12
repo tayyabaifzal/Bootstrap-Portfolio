@@ -52,6 +52,10 @@ a :hover {
 }
 
 
+.work{
+    background-color:#DEE2FF;
+}
+
 .cardContainer {
 padding: 20px;
 background-color: #DEE2FF;
@@ -62,8 +66,9 @@ background-color: #DEE2FF;
     width: 398px;
 }
 
-.card-title {
-    font-size: 50px solid !important;
+.card-body h5 {
+    font-size: 20px;
+    font-weight: 1000;
 }
 
 .btn {
@@ -75,6 +80,13 @@ background-color: #DEE2FF;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
   }
 
-  .skills {
-    text-align: center;
+  .skillcontainer {
+    padding: 20px;
+    background-color: #EFD3D7;
   }
+
+  .container h2 {
+    font-weight: 1000;
+  }
+ 
+
