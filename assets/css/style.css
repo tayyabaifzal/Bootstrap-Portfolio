@@ -1,17 +1,20 @@
 /*main elements */
 * {
     box-sizing: border-box;
+
 }
 
 :root {
-    --blue:#00008B;
+    --blue: #00008B;
+    --padding: 20px;
+
 }
 
 body {
     font-family: serif;
     line-height: 1.5;
     font-size: 18px;
-    color:var(--blue);
+    color: var(--blue);
 }
 
 /* NavBar*/
@@ -21,7 +24,7 @@ body {
     font-weight: 200px;
     transition: all 0.35s;
     letter-spacing: 1px;
-    padding: 20px;
+    padding: var(--padding);
     width: 100%;
 }
 
@@ -43,7 +46,7 @@ body {
     color: #f0a04b;
     text-decoration: underline;
     transition: all 0.35s;
-    
+
 }
 
 /* Hero/jumbotron */
@@ -60,7 +63,7 @@ body {
 }
 
 .cardContainer {
-    padding: 20px;
+    padding: var(--padding);
     background-color: #DEE2FF;
 }
 
@@ -86,7 +89,7 @@ body {
 
 /* Skill section */
 .skillcontainer {
-    padding: 20px;
+    padding: var(--padding);
     background-color: #EFD3D7;
 }
 
@@ -99,7 +102,7 @@ body {
 }
 
 .card-header .btn {
-    color: #00008B;
+    color: var(--blue);
     text-decoration: none;
     width: 10%;
 }
@@ -117,17 +120,18 @@ footer {
 
 /*About section*/
 .about {
-    padding: 20px;
+    padding: var(--padding);
 
 }
+
 /* contact section*/
 .contact {
     background-color: #c2d2bd;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 .hlink {
-    color: #00008B;
+    color: var(--blue);
     text-decoration: none;
     font-size: 20px;
 }
