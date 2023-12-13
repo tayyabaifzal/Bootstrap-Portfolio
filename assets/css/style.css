@@ -53,7 +53,7 @@ body {
 /* Hero/jumbotron */
 
 .jumbotron {
-    background-image: url(./assets/images/hero3.jpg);
+    background-image: url(/assets/images/hero3.jpg);
     background: fill;
     height: 90vh;
 }
