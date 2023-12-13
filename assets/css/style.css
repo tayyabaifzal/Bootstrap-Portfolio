@@ -144,28 +144,44 @@ footer {
 }
 
 
-/*Media query Tablet/IPad */
-@media only screen and (min-width:430px) and (max-width:1000px) {
-    body {
-        text-align: justify;
-    }
-    .jumbotron {
-        height:70vh;
-    }
+/*Media query iphone */
+@media only screen and (max-width:730px) {
+   body {
+    text-align: justify;
+   }
 
     .card-img-top{
-        width: 389px;
-    }
+    width: 334px;
+   }
 
-    .card-header .btn{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-    }
-
-    .about {
-        padding-left: 20px;
-
-    }
+   .card-header .btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   }
     
 }
+
+/*Media query ipad */
+@media only screen and (max-width:1000px) {
+   body {
+    text-align: justify;
+   }
+
+   .jumbotron{
+    height: 60vh;
+   }
+
+    .card-img-top{
+    width: 200px;
+    height: 200px;
+   }
+
+   .card-header .btn{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   }
+    
+}
+
