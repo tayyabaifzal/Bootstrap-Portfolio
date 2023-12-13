@@ -52,9 +52,8 @@ body {
 
 /* Hero/jumbotron */
 
-.jumbotron {
-    background-image: url(/assets/images/hero3.jpg);
-    background: fill;
+.jumbotron img {
+    object-fit: cover;
     height: 90vh;
 }
 
@@ -164,7 +163,12 @@ footer {
 
     .jumbotron {
         height: 50vh;
-        background-image: url(./assets/images/hero4.jpg);
+        width: 100vw;
+    }
+    .jumbotron img {
+        height: 50vh;
+        width: 100vw;
+        object-position: 0 0;
 
     }
 
@@ -178,6 +182,12 @@ footer {
 
     .jumbotron {
         height: 50vh;
+        width: 100vw;
+
+    }
+    .jumbotron img {
+        height: 50vh;
+        width: 100vw;
     }
 
     .card-img-top {
