@@ -13,15 +13,19 @@ Resposive Nav bar to allow easy access to all sections of the webpage.
 
 
 Work section include all my projects along with the coding skills and languages used.
+
 ![Alt text](assets/images/readme3.png)
 
 ![Alt text](assets/images/readme4.png)
 
 Skills section include all the skills learnt during the bootcamp
+
 ![Alt text](assets/images/readme7.png)
+
 ![Alt text](assets/images/readme5.png)
 
 Detailed footer includes about me as well as resources to contact me.
+
 ![Alt text](assets/images/readme6.png)
 
 
