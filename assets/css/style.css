@@ -1,4 +1,3 @@
-
 /*main elements */
 * {
     box-sizing: border-box;
@@ -13,7 +12,7 @@ body {
 }
 
 .navbar {
-    background-color:#c8d8e4;
+    background-color: #c8d8e4;
     font-weight: 200px;
     transition: all 0.35s;
     letter-spacing: 1px;
@@ -26,7 +25,7 @@ body {
     color: #00008B;
 }
 
-.nav-link{
+.nav-link {
     color: #00008B;
 }
 
@@ -34,10 +33,11 @@ body {
     color: #00008B;
 }
 
-.navbar-nav li  :hover {
-    color:#f0a04b;
+.navbar-nav li :hover {
+    color: #f0a04b;
     text-decoration: underline;
-    transition: all 0.35s;;
+    transition: all 0.35s;
+    
 }
 
 .jumbotron {
@@ -47,13 +47,13 @@ body {
 }
 
 
-.work{
-    background-color:#DEE2FF;
+.work {
+    background-color: #DEE2FF;
 }
 
 .cardContainer {
-padding: 20px;
-background-color: #DEE2FF;
+    padding: 20px;
+    background-color: #DEE2FF;
 }
 
 .card-img-top {
@@ -71,45 +71,46 @@ background-color: #DEE2FF;
     border: none;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
-  }
+}
 
-  .skillcontainer {
+.skillcontainer {
     padding: 20px;
     background-color: #EFD3D7;
-  }
+}
 
-  .container h2 {
+.container h2 {
     font-weight: 1000;
-  }
+}
 
-  .card-header {
-    background-color:#FEEAFA;
-  }
- 
-  .card-header .btn {
+.card-header {
+    background-color: #FEEAFA;
+}
+
+.card-header .btn {
     color: #00008B;
     text-decoration: none;
     width: 10%;
-  }
+}
 
-  .card-header .btn:hover{
+.card-header .btn:hover {
     text-decoration: underline;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
-  }
+}
+
 footer {
     background-color: #FFFFD2;
 
 }
 
-.about{
+.about {
     padding: 20px;
-    
+
 }
 
 .contact {
-    background-color:#c2d2bd;
+    background-color: #c2d2bd;
     padding: 20px;
 }
 
@@ -119,9 +120,10 @@ footer {
     font-size: 20px;
 }
 
-.hlink:hover{
-    color:#f0a04b;
+.hlink:hover {
+    color: #f0a04b;
     text-decoration: underline;
-    transition: all 0.35s;;
+    transition: all 0.35s;
+    ;
 
 }
