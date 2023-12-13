@@ -3,13 +3,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blue:#00008B;
+}
 
 body {
     font-family: serif;
     line-height: 1.5;
     font-size: 18px;
-    color: #00008B;
+    color:var(--blue);
 }
+
+/* NavBar*/
 
 .navbar {
     background-color: #c8d8e4;
@@ -22,16 +27,17 @@ body {
 
 #main-nav .navbar-brand {
     font-weight: 600;
-    color: #00008B;
+    color: var(--blue);
 }
 
 .nav-link {
-    color: #00008B;
+    color: var(--blue);
 }
 
 .dropdown-item {
-    color: #00008B;
+    color: var(--blue);
 }
+
 
 .navbar-nav li :hover {
     color: #f0a04b;
@@ -40,13 +46,15 @@ body {
     
 }
 
+/* Hero/jumbotron */
+
 .jumbotron {
     background-image: url(/assets/images/hero3.jpg);
     background: fill;
     height: 90vh;
 }
 
-
+/* Work section cards */
 .work {
     background-color: #DEE2FF;
 }
@@ -75,6 +83,8 @@ body {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+
+/* Skill section */
 .skillcontainer {
     padding: 20px;
     background-color: #EFD3D7;
@@ -99,16 +109,18 @@ body {
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
+/* Footer */
 footer {
     background-color: #FFFFD2;
 
 }
 
+/*About section*/
 .about {
     padding: 20px;
 
 }
-
+/* contact section*/
 .contact {
     background-color: #c2d2bd;
     padding: 20px;
@@ -124,6 +136,5 @@ footer {
     color: #f0a04b;
     text-decoration: underline;
     transition: all 0.35s;
-    ;
 
 }
