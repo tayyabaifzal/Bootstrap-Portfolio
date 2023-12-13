@@ -142,3 +142,30 @@ footer {
     transition: all 0.35s;
 
 }
+
+
+/*Media query Tablet/IPad */
+@media only screen and (min-width:430px) and (max-width:1000px) {
+    body {
+        text-align: justify;
+    }
+    .jumbotron {
+        height:70vh;
+    }
+
+    .card-img-top{
+        width: 389px;
+    }
+
+    .card-header .btn{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .about {
+        padding-left: 20px;
+
+    }
+    
+}
